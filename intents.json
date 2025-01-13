@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hii", "Hello", "Hey there", "Heya", "Is anyone there?", "Good day", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I help you with your food delivery today?", "Hi there! What can I do for you?", "Hey! Hungry? Let's get started."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Byee", "See you later", "Goodbye", "I'm done for now"],
+      "responses": ["Goodbye! Enjoy your meal!", "See you soon! Have a great day.", "Thanks for visiting. Come back anytime."]
+    },
+    {
+      "tag": "place_order",
+      "patterns": ["I want to place an order", "Place order", "Place my order", "How can I order food?", "Can I place an order?", "Help me order food"],
+      "responses": ["Sure! You can browse our menu and add items to your cart.", "What would you like to order today? Let me know the items."]
+    },
+    {
+      "tag": "make_order",
+      "patterns": ["I want to order pizza and burgers", "I want to order pizza", "I want to order burgers", "I want to order pasta", "I want to order salads", "I want to order pizza, burgers and pasta", "I want to order burgers and pasta", "I want to order pizza and pasta", "I want to order burgers and pasta"],
+      "responses": ["Order successfully made.Please wait for the order to arrive!"]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["What is on the menu?", "Show me the menu", "What do you offer?", "Do you have vegetarian options?", "What's in your menu?", "Tell me your menu", "menu", "Show me items available", "First show me the menu"],
+      "responses": ["Here is our menu: pizza, burgers, pasta, salads, and more!", "Yes, we have vegetarian and vegan options! Here is our menu: pizza, burgers, pasta, salads, and more!"]
+    },
+    {
+      "tag": "specials",
+      "patterns": ["What are today's specials?", "Any offers today?", "What discounts do you have?", "Any offer or discount today?", "What's special for today?"],
+      "responses": ["Today's special is 20% off on all pizzas!", "We have a buy 1 get 1 free offer on burgers!"]
+    },
+    {
+      "tag": "track_order",
+      "patterns": ["Where is my order?", "Track my order", "How can I track my delivery?", "Order status"],
+      "responses": ["Please provide your order ID to track your delivery.", "You can track your order status here. Just enter your order ID."]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": ["How long will delivery take?", "When will my food arrive?", "Delivery time for my order"],
+      "responses": ["Delivery usually takes 30-45 minutes.", "Your food will be delivered in about 40 minutes."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with a card?", "Do you take cash?", "Is UPI accepted?"],
+      "responses": ["We accept cash, credit/debit cards, and UPI payments.", "Yes, we accept most major payment methods including PayPal."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Can I cancel my order?", "How do I cancel an order?", "I want to cancel my order"],
+      "responses": ["You can cancel your order within 5 minutes of placing it. Please provide your order ID to proceed."]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": ["What is your refund policy?", "Will I get a refund for a canceled order?", "How do refunds work?"],
+      "responses": ["Refunds are processed within 3-5 business days for canceled orders.", "Yes, we provide refunds for canceled orders as per our policy."]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": ["I need help", "Can I talk to someone?", "I have an issue with my order", "Help", "How can i resolve my issue regarding my order?"],
+      "responses": ["I'm here to help! Please tell me your issue.", "Sure, what seems to be the problem?"]
+    },
+    {
+      "tag": "restaurant_info",
+      "patterns": ["Where are you located?", "What are your hours?", "When do you open?", "Location?", "Timings", "What are the timings of the restaurant?", "Where is this located?"],
+      "responses": ["We are located at Main Street, open from 10 AM to 11 PM daily.", "Our operating hours are 10 AM to 11 PM."]
+    },
+    {
+      "tag": "delivery_charge",
+      "patterns": ["Do you charge for delivery?", "What are the delivery charges?", "Is delivery free?", "Let me know the delivery charges also"],
+      "responses": ["Delivery charges depend on your location. Typically, it's Rs.5 for nearby areas.", "Orders above Rs.50 have free delivery."]
+    },
+    {
+      "tag": "minimum_order",
+      "patterns": ["What is the minimum order amount?", "Is there a minimum order requirement?"],
+      "responses": ["The minimum order amount is Rs.10.", "Yes, we have a Rs.10 minimum order requirement."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanku", "I appreciate it", "Thanks a lot", "Thank you so much"],
+      "responses": ["You're welcome!", "Anytime! Happy to help.", "No problem at all!"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Say something funny", "Do you know a joke?"],
+      "responses": ["Why did the tomato turn red? Because it saw the salad dressing!", "What do you call cheese that isn’t yours? Nacho cheese!"]
+    }                                              
+  ]
+}
