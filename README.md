@@ -1,5 +1,5 @@
 # Chatbot-Assistant-System
-(Using ML Algorithm, NLP Toolkit, Flask and Javascript)
+(Using Python, ML Algorithm, NLP Toolkit, Flask and Javascript)
 
 The Chatbot is a Python based chatbot that utilizes ML algorithm and NLP techniques to provide automated assistance to users with related inquiries. The chatbot aims to improve the user experience by delivering quick and accurate responses to their questions.
 This project demonstrates the deployment of a chatbot using Flask for the backend and JavaScript for the frontend. The chatbot is trained using a feedforward neural network implemented in PyTorch and uses pre-defined intents to respond to user queries.
